@@ -57,28 +57,28 @@
 	}
 
 	a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, caption, canvas, center, cite, code,
-	dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, form, footer, header, hgroup, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav,object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, tt, table, tbody, textarea, tfoot, thead, time, tr, th, td, u, ul, var, video  { 
-		font-family: inherit; 
-		font-size: 100%; 
-		font-weight: inherit; 
-		font-style: inherit; 
-		vertical-align: baseline; 
-		margin: 0; 
-		padding: 0; 
-		border: 0; 
+	dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, form, footer, header, hgroup, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav,object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, tt, table, tbody, textarea, tfoot, thead, time, tr, th, td, u, ul, var, video  {
+		font-family: inherit;
+		font-size: 100%;
+		font-weight: inherit;
+		font-style: inherit;
+		vertical-align: baseline;
+		margin: 0;
+		padding: 0;
+		border: 0;
 		outline: 0;
 		background: transparent;
 	}
 
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
-	                          
+
 	ol, ul {
 		list-style: none;
 	}
 
-	blockquote, q { 
+	blockquote, q {
 		-webkit-hyphens: none;
 		  -moz-hyphens: none;
 		   -ms-hyphens: none;
@@ -94,8 +94,8 @@
 		outline: 0;
 	}
 
-	table { 
-		border-collapse: collapse; 
+	table {
+		border-collapse: collapse;
 		border-spacing: 0;
 	}
 
@@ -167,7 +167,7 @@
 		-webkit-box-sizing: border-box;
 		   -moz-box-sizing: border-box;
 		        box-sizing: border-box;
-	}	
+	}
 
 /* Repeatable Patterns
 -------------------------------------------------------------- */
@@ -181,12 +181,12 @@
 
 body {
 	font: 14px/24px "Lato", sans-serif;
-	background-color: #fff;		
+	background-color: #fff;
 	color: #666666;
 	overflow: hidden;
 }
 
-a {		
+a {
 	text-decoration: none;
 	color: #979797;
 	font-family: 'Montserrat';
@@ -215,7 +215,7 @@ ul, ol {
 
 img {
 	max-width: 100%;
-	height: auto;		
+	height: auto;
 }
 
 b, strong {
@@ -229,7 +229,7 @@ button {
 button,
 input[type="button"],
 input[type="reset"],
-input[type="submit"] {		
+input[type="submit"] {
     display: inline-block;
     color: #fff;
     padding: 0px 29px 0 30px;
@@ -267,7 +267,7 @@ button.search-submit-form {
     line-height: 31px;
     font-size: 12px;
     border-color: transparent;
-    border-left: 1px solid #d0d0d0; 
+    border-left: 1px solid #d0d0d0;
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 0;
@@ -293,7 +293,7 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"],
-input[type="email"] {	
+input[type="email"] {
 	position: relative;
     display: block;
     width: 100%;
@@ -303,7 +303,7 @@ input[type="email"] {
     border: 1px solid #d0d0d0;
     height: 45px;
     background-color: #d8e7ef;
-    border-radius: 3px;   
+    border-radius: 3px;
     margin-bottom: 20px;
 	-webkit-transition: all 0.3s ease-in-out;
 	   -moz-transition: all 0.3s ease-in-out;
@@ -313,7 +313,7 @@ input[type="email"] {
 }
 
 input[type="search"] {
-    width: 250px;  
+    width: 250px;
     margin-bottom: 0px;
     border-radius: 0px;
     background-color: #ffffff;
@@ -343,7 +343,7 @@ input[type="color"]:focus {
 
 textarea {
 	width: 100%;
-	padding: 10px 15px;    
+	padding: 10px 15px;
     height: 170px;
 }
 
@@ -354,7 +354,7 @@ input[type="checkbox"] {
 textarea:-moz-placeholder,
 textarea::-moz-placeholder,
 input:-moz-placeholder,
-input::-moz-placeholder {		
+input::-moz-placeholder {
 	color: #555;
 	opacity: 1;
 }
@@ -371,26 +371,26 @@ input::-webkit-input-placeholder {
 
 /* bootstrap resetting elements */
 
-textarea, 
+textarea,
 input[type="text"],
 input[type="submit"],
-input[type="password"], 
-input[type="datetime"], 
-input[type="datetime-local"], 
-input[type="date"], 
-input[type="month"], 
-input[type="time"], 
-input[type="week"], 
-input[type="number"], 
-input[type="email"], 
-input[type="url"], 
-input[type="search"], 
-input[type="tel"], 
-input[type="color"], 
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
 .uneditable-input,
 .dropdown-menu,
-.navbar .nav > .active > a, 
-.navbar .nav > .active > a:hover, 
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
 	-webkit-appearance: none;
 	text-shadow: none;
@@ -741,11 +741,11 @@ ul.flat-social li {
 }
 
 
-/* Header 
+/* Header
 ---------------------------------------------------------------*/
 .header {
 	position: relative;
-	background-color: #ffffff;	
+	background-color: #ffffff;
 	-webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
@@ -1125,12 +1125,14 @@ ul.flat-social li {
 	padding-left: 15px;
 }
 
-/* Page Title 
+/* Page Title
 ---------------------------------------------------------------*/
 .page-title {
 	height: 333px;
 	position: relative;
-	background-image: url('../images/parallax/03.jpg');
+	background-image: url('../images/contacto.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .page-title.style1 {
@@ -1169,7 +1171,7 @@ ul.flat-social li {
 	padding: 0 3px 0 7px;
 }
 
-/* Main Content 
+/* Main Content
 ---------------------------------------------------------------*/
 .main-content {
 	padding: 100px 0 100px;
@@ -1187,7 +1189,7 @@ ul.flat-social li {
 	margin: 0px;
 }
 
-/* Blog Pagination 
+/* Blog Pagination
 ---------------------------------------------------------------*/
 .blog-single-pagination {
 	text-align: center;
@@ -1245,7 +1247,7 @@ ul.flat-social li {
 	color: #868686;
 }
 
-/* Footer 
+/* Footer
 ---------------------------------------------------------------*/
 #footer {
 	background-color: #29282e;
@@ -1896,7 +1898,7 @@ article.main-post.style1 .entry-content {
 	display: inline-block;
 	color: #999999;
 	font-size: 12px;
-	
+
 }
 
 .widget-post ul.post-list li .post-content ul li span {
@@ -2038,7 +2040,7 @@ article.main-single .direction ul li a:hover {
     letter-spacing: 0.4px;
 }
 
-.sidebar .widget.widget_nav_menu ul li.active, 
+.sidebar .widget.widget_nav_menu ul li.active,
 .sidebar .widget.widget_nav_menu ul li:hover {
     background-color: #3a526a;
     color: #fff;
@@ -2104,7 +2106,7 @@ article.main-single .direction ul li a:hover {
 	width: 100%;
 	height: 100%;
 	background-image: url(../images/parallax/08.png);
-	
+
 	z-index: -1;
 }
 
@@ -2131,7 +2133,7 @@ article.main-single .direction ul li a:hover {
 
 /* padding section */
 .pd-imagebox-s3 {
-	padding: 100px 0; 
+	padding: 100px 0;
 }
 
 .flat-imagebox.style2 {
@@ -2320,7 +2322,7 @@ article.main-single .direction ul li a:hover {
 }
 
 .btn-menu:before,
-.btn-menu:after, 
+.btn-menu:after,
 .btn-menu span {
 	background-color: #18ba60;
     -webkit-transition: all ease .238s;
@@ -2397,7 +2399,7 @@ article.main-single .direction ul li a:hover {
 }
 
 .btn-menu {
-   display: none; 
+   display: none;
 }
 
 /* GoTop
@@ -2405,7 +2407,7 @@ article.main-single .direction ul li a:hover {
 .go-top {
    	position: fixed !important;
    	right: 15px;
-	bottom: 15px;   
+	bottom: 15px;
    	width: 40px;
    	height: 40px;
    	z-index: 9999;
@@ -2414,17 +2416,17 @@ article.main-single .direction ul li a:hover {
         -ms-border-radius: 50%;
          -o-border-radius: 50%;
     		border-radius: 50%;
-   	cursor: pointer;   
+   	cursor: pointer;
     background-color: rgba(24, 186, 96, 0.8);
     box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.5);
    	line-height: 40px;
-   	text-align: center;   	
+   	text-align: center;
    	-webkit-transition: all 0.3s ease-in-out;
 	   -moz-transition: all 0.3s ease-in-out;
 	    -ms-transition: all 0.3s ease-in-out;
 	     -o-transition: all 0.3s ease-in-out;
 	        transition: all 0.3s ease-in-out;
-    
+
 }
 
 .go-top i {
@@ -2508,7 +2510,7 @@ article.main-single .direction ul li a:hover {
    	font-size: 25px;
    	color: #18ba60;
     -webkit-animation: fa-spin 2s infinite linear;
-            animation: fa-spin 2s infinite linear; 
+            animation: fa-spin 2s infinite linear;
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
@@ -2529,7 +2531,7 @@ article.main-single .direction ul li a:hover {
    margin-bottom: 10px;
 }
 
-.switcher-container .selector-box {   
+.switcher-container .selector-box {
    color: #fff;
    overflow: hidden;
 }
@@ -2588,7 +2590,7 @@ article.main-single .direction ul li a:hover {
 			transition: all 0.3s;
 }
 
-.sw-even a {	
+.sw-even a {
 	font-family: "Karla", sans-serif;
     text-transform: uppercase;
 	font-size: 12px;
@@ -2611,7 +2613,7 @@ article.main-single .direction ul li a:hover {
 	color: #000 !important;
 }
 
-.sw-odd a {	
+.sw-odd a {
 	font-size: 16px;
 	color: #fff;
 	width: 100%;
@@ -2629,12 +2631,12 @@ article.main-single .direction ul li a:hover {
 .sw-odd .ws-colors a {
 	position: relative;
 	width: auto;
-	padding: 0;	
+	padding: 0;
 	width: 30px;
 	height: 30px;
-	background-color: #333;	
+	background-color: #333;
 	display: inline-block;
-	margin-right: 5px;	
+	margin-right: 5px;
 	overflow: hidden;
 }
 
@@ -2747,7 +2749,7 @@ article.main-single .direction ul li a:hover {
 	padding: 20px 0 30px 20px;
 }
 
-.sw-pattern.pattern a {	
+.sw-pattern.pattern a {
     width: 40px;
     height: 40px;
     display: inline-block;
@@ -2777,10 +2779,10 @@ article.main-single .direction ul li a:hover {
 }
 
 .sw-odd .sw-image .sw-buy {
-	width: 100%;	
+	width: 100%;
     border: none;
-    background: #6f9a37; 
-    position: relative;	
+    background: #6f9a37;
+    position: relative;
     height: 35px;
     line-height: 37px;
     border-radius: 0;
@@ -2830,7 +2832,7 @@ article.main-single .direction ul li a:hover {
     height: 60px;
     content: "";
     -webkit-animation: preloader-wave 1.6s linear infinite;
-        animation: preloader-wave 1.6s linear infinite; 
+        animation: preloader-wave 1.6s linear infinite;
     border-radius: 50%;
     background: #18ba60;
 }
