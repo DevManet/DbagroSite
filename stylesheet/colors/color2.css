@@ -45,7 +45,7 @@ article.main-post.style1 .entry-title ul li i,
 .table-pricing table tbody tr td:nth-child(4),
 .table-pricing.style1 table tbody tr.platinum .title,
 .table-pricing.style1 table tbody tr.platinum td {
-  color: #247fe1;
+  color: #5D1F91;
 }
 
 
@@ -83,11 +83,11 @@ input[type="submit"],
 .widget-categories ul li a:hover:before, .widget-categories ul li.active a:before,
 .comment-respond form div input:focus, .comment-respond form div textarea:focus,
 .table-pricing.style1 table tbody tr.platinum td a {
-	border-color: #247fe1;
+	border-color: #5D1F91;
 }
 
 .tab-services .tab-list-services .tab-item .box-tab:before {
-	border-top-color: #247fe1;
+	border-top-color: #5D1F91;
 }
 
 /* Background Color
@@ -152,11 +152,11 @@ article.main-single .direction ul li a,
 .table-pricing table tbody tr td:nth-child(4) a,
 .table-pricing.style1 table tbody tr.platinum td a,
 .top.style2 {
-	background-color: #247fe1;
+	background-color: #5D1F91;
 }
 
 .tp-caption.flat-button-slider.bg-white:hover {
-	background-color: #247fe1 !important;
+	background-color: #5D1F91 !important;
 	color: #fff;
 }
 
